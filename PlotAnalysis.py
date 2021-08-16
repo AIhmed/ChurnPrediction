@@ -7,8 +7,8 @@ import torch.optim as optim
 import torch.nn.functional as fn 
 from torch.utils.data import Dataset , DataLoader
 
-trainSet=pd.read_csv('sample_data/churn-bigml-80.csv')
-testSet=pd.read_csv('sample_data/churn-bigml-20.csv')
+trainSet=pd.read_csv('')
+testSet=pd.read_csv('')
 print(testSet.columns)
 group=trainSet.groupby('Churn')
 
